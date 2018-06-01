@@ -1,0 +1,42 @@
+/*hack CSS pour supprimer le whitespace sous les img quand on les met dans une bloc, espace initialement prévu pour les lettres descendantes (ex: la queue du "p") dans un bloc*/
+img{
+	width: 100%;
+	vertical-align: bottom;
+}
+
+/*Supprimer whitespace entre les éléments inline-block*/
+.parent {
+/*Bloc parent avec whitespace*/
+font-size: 0;
+
+    .inline-block {
+		/*Enfants en inline-block*/
+		display: inline-block;
+    }
+}
+
+// Commande à entrer dans la console, ajoute des border à toutes les divs
+
+[].forEach.call($$("*"),function(a){a.style.outline="1px solid #"+(~~(Math.random()*(1<<24))).toString(16)});
+
+/*Media Query courantes*/
+
+/*Notepad & Less*/
+@media all and (max-width:1170px){
+
+
+}
+
+/*Tablets & Less*/
+
+@media all and (max-width:970px){
+
+
+}
+
+/*Smartphones & Less*/
+
+@media all and (max-width:750px){
+
+
+}
